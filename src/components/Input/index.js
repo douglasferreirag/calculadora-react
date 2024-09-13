@@ -1,14 +1,11 @@
-import {InputContainer} from './styles';
+import { InputContainer } from './styles';
 
-const Input = () =>  {
+const Input = ({value}) => {
     return (
       <InputContainer>
-
-        <input/>
-       
+       <input disabled value={value}/>
       </InputContainer>
     );
   }
   
   export default Input;
-  
